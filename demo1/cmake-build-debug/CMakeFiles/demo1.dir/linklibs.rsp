@@ -1,0 +1,1 @@
+  -LD:/C++Test/csTool/demo1/lib/dwmapi.lib  -LD:/C++Test/csTool/demo1/lib/d3d9.lib  -LD:/C++Test/csTool/demo1/lib/d3dx9.lib  -ldwmapi -ld3d9 -ld3dx9 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

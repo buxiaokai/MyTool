@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/renderer.h
+windows.h
+../include/windows.h
+string
+../include/string
+dwmapi.h
+../include/dwmapi.h
+d3d9.h
+../include/d3d9.h
+d3dx9.h
+../include/d3dx9.h
+
+D:/C++Test/csTool/demo1/lib/renderer.cpp
+tchar.h
+-
+renderer.h
+D:/C++Test/csTool/demo1/lib/renderer.h
+

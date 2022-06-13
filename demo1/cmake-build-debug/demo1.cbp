@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="demo1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/C++Test/csTool/demo1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/C++Test/csTool/demo1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo1">
+				<Option output="D:/C++Test/csTool/demo1/cmake-build-debug/demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C++Test/csTool/demo1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/C++Test/csTool/demo1/include"/>
+					<Add directory="D:/C++Compile/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/C++Compile/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/C++Compile/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/C++Compile/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/C++Compile/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/C++Compile/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo1"/>
+					<CompileFile command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo1/fast">
+				<Option output="D:/C++Test/csTool/demo1/cmake-build-debug/demo1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C++Test/csTool/demo1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/C++Test/csTool/demo1/include"/>
+					<Add directory="D:/C++Compile/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/C++Compile/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/C++Compile/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/C++Compile/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/C++Compile/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/C++Compile/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo1/fast"/>
+					<CompileFile command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/C++Test/csTool/demo1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/C++Compile/mingw32/bin/mingw32-make.exe -f &quot;D:/C++Test/csTool/demo1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/C++Test/csTool/demo1/include/cssdk.h">
+			<Option target="demo1"/>
+		</Unit>
+		<Unit filename="D:/C++Test/csTool/demo1/include/memory.h">
+			<Option target="demo1"/>
+		</Unit>
+		<Unit filename="D:/C++Test/csTool/demo1/include/offsets.h">
+			<Option target="demo1"/>
+		</Unit>
+		<Unit filename="D:/C++Test/csTool/demo1/include/renderer.h">
+			<Option target="demo1"/>
+		</Unit>
+		<Unit filename="D:/C++Test/csTool/demo1/lib/cssdk.cpp">
+			<Option target="demo1"/>
+		</Unit>
+		<Unit filename="D:/C++Test/csTool/demo1/lib/memory.cpp">
+			<Option target="demo1"/>
+		</Unit>
+		<Unit filename="D:/C++Test/csTool/demo1/lib/renderer.cpp">
+			<Option target="demo1"/>
+		</Unit>
+		<Unit filename="D:/C++Test/csTool/demo1/main.cpp">
+			<Option target="demo1"/>
+		</Unit>
+		<Unit filename="D:/C++Test/csTool/demo1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

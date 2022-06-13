@@ -1,1 +1,4 @@
 clion工具，c++代码
+
+csgo最新偏移地址
+https://github.com/frk1/hazedumper
